@@ -1,0 +1,106 @@
+@media screen and (max-width:1144px) {
+  header nav {
+    width: 96%;
+
+  }
+
+  #logo {
+    font-size: x-large;
+    width: max-content;
+  }
+
+
+
+  #left-nav ul {
+    width: 100%;
+
+  }
+
+
+}
+
+@media screen and (max-width:1028px) {
+
+
+  #logo {
+    font-size: large;
+    /* width: 138px; */
+  }
+
+  header nav #sub-navbar {
+    width: 80%;
+  }
+
+  #left-nav ul li {
+    /* padding: 0px 9px; */
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 1006px) {
+  #logo {
+    font-size: large;
+    padding-left: 30px;
+
+    /* width: 22vw; */
+  }
+
+  #sub-navbar {
+    justify-content: flex-end !important;
+  }
+
+  /* nav .navbar {
+    display: block;
+  } */
+
+  #left-nav {
+    display: none;
+  }
+
+
+  #right-nav .search input {
+    font-size: x-small
+  }
+
+  #menu {
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  #logo {
+    font-size: large;
+    padding-left: 30px;
+
+    /* width: 22vw; */
+  }
+
+  .search input {
+    width: 48px !important;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  .floating_nav {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  #logo{
+    font-size: 18px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .carousel{
+    height: 300px;
+  }
+  .carousel-inner img{
+    height: 293px;
+  }
+}
